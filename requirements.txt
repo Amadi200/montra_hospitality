@@ -1,0 +1,44 @@
+# Guest Experience Analytics & Sentiment Intelligence
+# Montra Hospitality Intel
+
+# Core data
+pandas>=2.0.0
+numpy>=1.24.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+python-dotenv>=1.0.0
+
+# NLP & Preprocessing
+nltk>=3.8.0
+spacy>=3.5.0
+scikit-learn>=1.3.0
+regex>=2023.0.0
+
+# Topic Modelling
+bertopic>=0.16.0
+umap-learn>=0.5.0
+hdbscan>=0.8.0
+sentence-transformers>=2.2.0
+
+# Sentiment / Transformers
+transformers>=4.36.0
+torch>=2.0.0
+accelerate>=0.25.0
+datasets>=2.14.0
+
+# Experiment tracking
+mlflow>=2.9.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.13.0
+plotly>=5.18.0
+wordcloud>=1.9.0
+
+# Data quality
+great-expectations>=0.18.0
+
+# Utilities
+tqdm>=4.66.0
+joblib>=1.3.0
+pyyaml>=6.0.0
